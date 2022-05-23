@@ -8,6 +8,7 @@ print(largest_num)
 
 # Defined a function to get odd numbers
 def get_odd_num(array):
+
 # empty list for the odd numbers found
     odd_num = []
 # A for loop to loop through the array of numbers with a sum to find the odd numbers
@@ -30,3 +31,17 @@ def get_even_num(array):
 
 
 print(get_even_num(array))
+
+
+def main(array):
+    even = []
+    odd = []
+
+    for num in array:
+        if num % 2 == 0:
+            even.append(num)
+        else:
+            odd.append(num)
+    return even, odd
+
+print(main(array))
