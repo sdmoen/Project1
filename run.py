@@ -5,7 +5,7 @@ array = [40, 45, 50, 55, 80, 85, 90, 95, 100]
 largest_num = array[0]
 # loop through the array 
 for i in range(0, len(array)):
-    #compare against 
+    #compare against each number
     if (array[i] > largest_num):
 
         largest_num = array[i]
