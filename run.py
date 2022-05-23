@@ -1,10 +1,19 @@
 # Random array of numbers
 array = [40, 45, 50, 55, 80, 85, 90, 95, 100]
 
-# Using the built in max function to get the largest number
-largest_num = max(array)
+# start at 0 to get the largest number
+largest_num = array[0]
+# loop through the array 
+for i in range(0, len(array)):
+    #compare against 
+    if (array[i] > largest_num):
+
+        largest_num = array[i]
+
 
 print(largest_num)
+
+
 
 # Defined a function to get odd numbers
 def get_odd_num(array):
