@@ -6,10 +6,11 @@ largest_num = max(array)
 
 print(largest_num)
 
-
+# Defined a function to get odd numbers
 def get_odd_num(array):
+# empty list for the odd numbers found
     odd_num = []
-
+# A for loop to loop through the array of numbers with a sum to find the odd numbers
     for num in array:
         if num % 2 == 1:
             odd_num.append(num)
