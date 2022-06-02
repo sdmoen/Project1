@@ -27,8 +27,6 @@ def get_odd_num(array):
     return odd_num
 
 
-print(get_odd_num(array))
-
 
 def get_even_num(array):
     even_num = []
@@ -39,10 +37,8 @@ def get_even_num(array):
     return even_num
 
 
-print(get_even_num(array))
 
-
-def main(array):
+def data(array):
     even = []
     odd = []
 
@@ -53,4 +49,13 @@ def main(array):
             odd.append(num)
     return even, odd
 
-print(main(array))
+
+# define a main function
+
+def main():
+    print(get_odd_num(array))
+    print(get_even_num(array))
+    print(data(array))
+
+if __name__ == "__main__":
+    main()
